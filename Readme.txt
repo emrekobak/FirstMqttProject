@@ -1,6 +1,6 @@
 This project was carried out for messaging purposes using the mqtt protocol.
 SAMPLE
-Server Name:broker.mqttdashboar.com
+Server Name:broker.mqttdashboard.com
 username:whatever
 password:whatever
 Online MQTT Client: http://www.hivemq.com/demos/websocket-client/
