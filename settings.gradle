@@ -1,0 +1,8 @@
+/*
+ * Copyright © 2021. Development by Mehmet Emre KOBAK
+ * Contact: kobakmehmetemre@gmail.com
+ *
+ */
+
+include ':app'
+rootProject.name='My Application'

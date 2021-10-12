@@ -1,0 +1,22 @@
+<!--
+  ~ Copyright © 2021. Development by Mehmet Emre KOBAK
+  ~ Contact: kobakmehmetemre@gmail.com
+  ~
+  -->
+
+<resources>
+    <string name="app_name">My MQTT Broker</string>
+    <string name="subscribe">Subscribe</string>
+    <string name="connect">Connect</string>
+    <string name="publish">Publish</string>
+    <string name="password">Password</string>
+    <string name="username">Username</string>
+    <string name="server_address">Server Address</string>
+    <string name="enter_topic">Enter Topic</string>
+    <string name="enter_message">Enter Message</string>
+    <string name="publishBtn">Publish</string>
+    <string name="subscribeBtn">Subscribe</string>
+    <string name="footer">Development by Mehmet Emre KOBAK\nCopyright © 2021</string>
+    <string name="Flaticon">https://www.flaticon.com/authors/srip</string>
+    <string name="disconnect">Disconnect</string>
+</resources>

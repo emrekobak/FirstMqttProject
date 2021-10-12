@@ -1,0 +1,153 @@
+<!--
+  ~ Copyright © 2021. Development by Mehmet Emre KOBAK
+  ~ Contact: kobakmehmetemre@gmail.com
+  ~
+  -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center|bottom"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/chat"
+        android:contentDescription="@string/Flaticon" />
+
+    <EditText
+        android:id="@+id/editTextServer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:drawableStart="@drawable/ic_action_server"
+        android:drawableLeft="@drawable/ic_action_server"
+        android:hint="@string/server_address" />
+
+    <EditText
+        android:id="@+id/editTextUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:drawableStart="@drawable/ic_action_user"
+        android:drawableLeft="@drawable/ic_action_user"
+        android:hint="@string/username"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editTextPasswd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:drawableStart="@drawable/ic_action_passwd"
+        android:drawableLeft="@drawable/ic_action_passwd"
+        android:ems="10"
+        android:hint="@string/password"
+        android:inputType="textPassword" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/radioPub"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="30dp"
+            android:layout_marginRight="30dp"
+            android:text="@string/publish"
+            android:visibility="invisible" />
+
+        <Button
+            android:id="@+id/connectbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="connect"
+            android:textAllCaps="false"
+            android:text="@string/connect" />
+
+
+        <RadioButton
+            android:id="@+id/radioSub"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginLeft="30dp"
+            android:text="@string/subscribe"
+            android:visibility="invisible" />
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/editTopic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:hint="@string/enter_topic"
+        android:inputType="textPersonName"
+        android:visibility="invisible" />
+
+    <EditText
+        android:id="@+id/editMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_message"
+        android:visibility="invisible" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btnPub"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="Pub"
+            android:text="@string/publishBtn"
+            android:visibility="invisible" />
+
+
+        <Button
+            android:id="@+id/btnSub"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="Sub"
+            android:text="@string/subscribeBtn"
+            android:visibility="invisible" />
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/subText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#4A9CAC"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/btnCık"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="logout"
+        android:textAllCaps="false"
+        android:text="@string/disconnect"
+        android:visibility="invisible" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:lines="2"
+        android:singleLine="false"
+        android:gravity="center|bottom"
+        android:text="@string/footer"/>
+
+
+</LinearLayout>

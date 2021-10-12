@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright © 2021. Development by Mehmet Emre KOBAK
+  ~ Contact: kobakmehmetemre@gmail.com
+  ~
+  -->
+
+<resources>
+    <color name="colorPrimary">#4A9CAC</color>
+    <color name="colorPrimaryDark">#4A9CAC</color>
+    <color name="colorAccent">#4A9CAC</color>
+</resources>
