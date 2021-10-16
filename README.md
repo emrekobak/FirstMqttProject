@@ -7,8 +7,8 @@ Flaticon
 Icons made by Freepik https://www.flaticon.com/
 Icons made by https://www.flaticon.com/authors/srip
 ## Contact
-### Mehmet Emre KOBAK
-### Mail: kobakmehmetemre@gmail.com
+Mehmet Emre KOBAK
+Mail: kobakmehmetemre@gmail.com
 
 
 
