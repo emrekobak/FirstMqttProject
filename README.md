@@ -19,6 +19,8 @@ This is just an example. You can connect to different broker addresses. Applicat
 ## Sources
 Eclipse Paho Android Service
 
+Online Websocket Client http://www.hivemq.com/demos/websocket-client/
+
 Icons made by srip https://www.flaticon.com/
 
 ## Contact
