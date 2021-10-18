@@ -10,7 +10,7 @@ This is just an example. You can connect to different broker addresses. Applicat
 
 
 
-## Sources and Attribute
+## Sources
 Eclipse Paho Android Service
 
 Icons made by srip https://www.flaticon.com/
